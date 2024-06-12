@@ -1384,7 +1384,7 @@ button {
 
   .footer__links {
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 
   .footer__socials {
