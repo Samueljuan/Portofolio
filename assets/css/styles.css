@@ -285,13 +285,13 @@ img {
 }
 
 .home__content {
-  grid-template-columns: 0.5fr 3fr;
+  /* grid-template-columns: 0.5fr 3fr; */
   padding-top: 1rem;
   align-items: center;
 }
 
 .home__social {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: max-content;
   row-gap: 1rem;
 }
@@ -316,6 +316,10 @@ img {
 
 .home__data {
   grid-column: 1/2;
+}
+
+.home__img{
+  justify-self: center;
 }
 
 .home__title {
@@ -1411,6 +1415,7 @@ button {
 
   .home__social {
     transform: translateX(-6rem);
+      display: grid;
   }
 
   .services__container {
